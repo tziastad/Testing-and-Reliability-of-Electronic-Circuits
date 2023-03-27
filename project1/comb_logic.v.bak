@@ -1,6 +1,0 @@
-module comb_logic(a,b,c,d,i,j);
-  input a,b,c,d;
-  output i,j;
-  
-  
-endmodule
