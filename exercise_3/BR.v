@@ -1,0 +1,18 @@
+`timescale 1ns/1ps
+module BR(TDI,CaptureDR,ClockDR,TDO);
+
+	input TDI,CaptureDR,ClockDR;
+	output TDO;
+	
+	wire TDI,CaptureDR,andtoFF,ClockDR,TDO;
+	reg Q;
+	
+	assign TDO=Q;
+	
+	and(andtoFF,TDI,CaptureDR);
+	
+	always @ (posedge ClockDR)
+	begin
+		Q<=andtoFF;
+	end
+endmodule

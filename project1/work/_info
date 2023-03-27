@@ -1,0 +1,123 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\altera\13.0sp1
+vcomb_logic
+!i10b 1
+!s100 A;`n@Bl1CGEmK@^=6z_:=0
+IUQSmXR_Z6CSC6VKz0E6U42
+Z1 VmQLgVRE?GmT:5VWCG[Wfd1
+Z2 dC:\Users\Dora\Desktop\tenentes\project1
+Z3 w1616350442
+8C:\Users\Dora\Desktop\tenentes\project1\comb_logic.v
+FC:\Users\Dora\Desktop\tenentes\project1\comb_logic.v
+L0 1
+Z4 OV;L;10.1d;51
+r1
+!s85 0
+31
+!s108 1616355117.657000
+!s107 C:\Users\Dora\Desktop\tenentes\project1\comb_logic.v|
+!s90 -reportprogress|300|-work|work|C:\Users\Dora\Desktop\tenentes\project1\comb_logic.v|
+!s101 -O0
+Z5 o-work work -O0
+vcomb_logic_tb
+Z6 InaFa>CKf6JMokIkLYSkH_0
+Z7 V=ei9]4dI60Y<]kFNiI[3<2
+R2
+Z8 w1616354549
+Z9 8C:/Users/Dora/Desktop/tenentes/project1/comb_logic_tb.v
+Z10 FC:/Users/Dora/Desktop/tenentes/project1/comb_logic_tb.v
+L0 1
+R4
+r1
+31
+Z11 !s90 -reportprogress|300|-work|work|C:/Users/Dora/Desktop/tenentes/project1/comb_logic_tb.v|
+R5
+!i10b 1
+Z12 !s100 ]O1e]UD:3NMR>10^LiK7?2
+!s85 0
+Z13 !s108 1616354554.522000
+Z14 !s107 C:/Users/Dora/Desktop/tenentes/project1/comb_logic_tb.v|
+!s101 -O0
+vMyDFF
+Z15 !s100 YmEo]FeV>VJQfiPBonTn@0
+Z16 I`d=J8AdGNkzi?UYg?Pdj33
+Z17 VS9<lSML<K3IJclMK0]3DD2
+R2
+Z18 w1616339607
+Z19 8C:/Users/Dora/Desktop/tenentes/project1/myDFF.v
+Z20 FC:/Users/Dora/Desktop/tenentes/project1/myDFF.v
+L0 1
+R4
+r1
+31
+Z21 !s90 -reportprogress|300|-work|work|C:/Users/Dora/Desktop/tenentes/project1/myDFF.v|
+R5
+Z22 n@my@d@f@f
+Z23 !s108 1616348066.549000
+Z24 !s107 C:/Users/Dora/Desktop/tenentes/project1/myDFF.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vMyDFFtb
+Z25 !s100 0ongaP@zo28LUgz1PHo=d0
+Z26 IUoD^OT_PIGW6ST64=YDLo3
+Z27 VOii3:k;CfZ7eZj[CZF>>[0
+R2
+Z28 w1616340722
+Z29 8C:/Users/Dora/Desktop/tenentes/project1/MyDFFtb.v
+Z30 FC:/Users/Dora/Desktop/tenentes/project1/MyDFFtb.v
+L0 1
+R4
+r1
+31
+Z31 !s90 -reportprogress|300|-work|work|C:/Users/Dora/Desktop/tenentes/project1/MyDFFtb.v|
+R5
+Z32 n@my@d@f@ftb
+Z33 !s108 1616348066.640000
+Z34 !s107 C:/Users/Dora/Desktop/tenentes/project1/MyDFFtb.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vSDFF
+Z35 I9V[]JX;C3ZC2<OacKfD?60
+Z36 VS@WFTTR7e5DeVE?ITlThg2
+R2
+Z37 w1616348039
+Z38 8C:/Users/Dora/Desktop/tenentes/project1/SDFF.v
+Z39 FC:/Users/Dora/Desktop/tenentes/project1/SDFF.v
+L0 1
+R4
+r1
+31
+Z40 !s90 -reportprogress|300|-work|work|C:/Users/Dora/Desktop/tenentes/project1/SDFF.v|
+R5
+Z41 n@s@d@f@f
+Z42 !s100 icY=id_M90oGl>=RYL:f01
+Z43 !s108 1616348066.741000
+Z44 !s107 C:/Users/Dora/Desktop/tenentes/project1/SDFF.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vSDFFtb
+Z45 !s100 8L8QhOEiJ9TegLzX[DQ0h2
+Z46 IkZ52PJK56NQm<>^EQ4DRQ3
+Z47 VnajSkM7h=DUkT0b5UVc<S0
+R2
+Z48 w1616347989
+Z49 8C:/Users/Dora/Desktop/tenentes/project1/SDFFtb.v
+Z50 FC:/Users/Dora/Desktop/tenentes/project1/SDFFtb.v
+L0 1
+R4
+r1
+31
+Z51 !s90 -reportprogress|300|-work|work|C:/Users/Dora/Desktop/tenentes/project1/SDFFtb.v|
+R5
+Z52 n@s@d@f@ftb
+Z53 !s108 1616350117.451000
+Z54 !s107 C:/Users/Dora/Desktop/tenentes/project1/SDFFtb.v|
+!i10b 1
+!s85 0
+!s101 -O0

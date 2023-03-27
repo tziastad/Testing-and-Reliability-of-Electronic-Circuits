@@ -1,0 +1,16 @@
+module trcut(CLK,SE,SI,SO);
+	input CLK,SE;
+	input [3:0]SI;
+	output SO;
+	wire i,j,x_value;
+	assign i=i_ob;
+	assign j=j_ob; 
+	assign SO=d_cp
+	
+	
+	
+	scan_chain SCinstance(SI,SE,CLK,j_ob,a_cp,i_ob,b_cp,c_cp,d_cp,x_value);  
+	
+	comb_logic CLinstance(a_cp,b_cp,c_cp,d_cp,i,j);  
+endmodule
+

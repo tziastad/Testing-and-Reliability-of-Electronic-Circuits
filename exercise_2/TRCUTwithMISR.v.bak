@@ -1,0 +1,17 @@
+module TRCUTwithMISR(SE,CLK,SO);
+	input CLK,SE;
+	output sign;
+	wire lfsrout3;
+	wire misrin;
+	wire SI;
+	assign SI=lfsrout3;
+	assign misrin=SI;
+	
+	
+	LFSR_8 LFSRinstance(CLK,lfsrout3,out_lfsr);
+	
+	trcut trcutinstance(CLK,SE,SI,out_trcut);
+	
+	MISR_16 misrinstance(CLK,misrin,sign);
+	
+endmodule

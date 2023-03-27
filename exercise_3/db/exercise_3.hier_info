@@ -1,0 +1,10 @@
+|tap_controller
+TCK => current_state~1.DATAIN
+TMS => Decoder0.IN0
+TRST => current_state~3.DATAIN
+state[0] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+state[1] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+state[2] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+state[3] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+

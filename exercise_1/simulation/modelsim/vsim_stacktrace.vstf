@@ -1,0 +1,58 @@
+# Current time Wed Mar 31 20:16:34 2021
+# ModelSim Stack Trace
+# Program = vsim
+# Id = "10.1d"
+# Version = "2012.11"
+# Date = "Nov  2 2012"
+# Platform = win32pe
+# 0    0x0063009a: '<unknown (@0x63009a)>'
+# 1    0x00631bc9: '<unknown (@0x631bc9)>'
+# 2    0x004e1d82: '<unknown (@0x4e1d82)>'
+# 3    0x009e7a0f: '<unknown (@0x9e7a0f)>'
+# 4    0x004011c5: '<unknown (@0x4011c5)>'
+# 5    0x004ebb52: '<unknown (@0x4ebb52)>'
+# 6    0x004eea06: '<unknown (@0x4eea06)>'
+# 7    0x004eea83: '<unknown (@0x4eea83)>'
+# 8    0x006b60d9: '<unknown (@0x6b60d9)>'
+# 9    0x0076ead0: '<unknown (@0x76ead0)>'
+# 10   0x7795cf88: '<unknown (@0x7795cf88)>'
+# 11   0x7795922b: '<unknown (@0x7795922b)>'
+# 12   0x779650a6: '<unknown (@0x779650a6)>'
+# 13   0x006307b4: '<unknown (@0x6307b4)>'
+# 14   0x006318f1: '<unknown (@0x6318f1)>'
+# 15   0x0061e3e1: '<unknown (@0x61e3e1)>'
+# 16   0x009e75dc: '<unknown (@0x9e75dc)>'
+# 17   0x0061fe46: '<unknown (@0x61fe46)>'
+# 18   0x008f810e: '<unknown (@0x8f810e)>'
+# 19   0x008f812c: '<unknown (@0x8f812c)>'
+# 20   0x1000bdd4: 'TclInvokeStringCommand + 0x74' in 'c:\altera\13.0sp1\modelsim_ase\win32aloem\tcl84.dll'
+# 21   0x1000c770: 'TclEvalObjvInternal + 0x230' in 'c:\altera\13.0sp1\modelsim_ase\win32aloem\tcl84.dll'
+# 22   0x1000dd77: 'Tcl_EvalEx + 0x167' in 'c:\altera\13.0sp1\modelsim_ase\win32aloem\tcl84.dll'
+# 23   0x00a02c54: '<unknown (@0xa02c54)>'
+# 24   0x1003b375: 'Tcl_NotifyChannel + 0xd5' in 'c:\altera\13.0sp1\modelsim_ase\win32aloem\tcl84.dll'
+# 25   0x1006b4dd: 'TclpCreateProcess + 0xced' in 'c:\altera\13.0sp1\modelsim_ase\win32aloem\tcl84.dll'
+# 26   0x1004aed0: 'Tcl_ServiceEvent + 0x60' in 'c:\altera\13.0sp1\modelsim_ase\win32aloem\tcl84.dll'
+# 27   0x1004b11e: 'Tcl_DoOneEvent + 0x10e' in 'c:\altera\13.0sp1\modelsim_ase\win32aloem\tcl84.dll'
+# 28   0x00a04245: '<unknown (@0xa04245)>'
+# 29   0x008a3813: '<unknown (@0x8a3813)>'
+# 30   0x008a384d: '<unknown (@0x8a384d)>'
+# 31   0x006b5e06: '<unknown (@0x6b5e06)>'
+# 32   0x0063007a: '<unknown (@0x63007a)>'
+# 33   0x00631bc9: '<unknown (@0x631bc9)>'
+# 34   0x004e1d82: '<unknown (@0x4e1d82)>'
+# 35   0x009e7a0f: '<unknown (@0x9e7a0f)>'
+# 36   0x004011c5: '<unknown (@0x4011c5)>'
+# 37   0x004ebb52: '<unknown (@0x4ebb52)>'
+# 38   0x004eea06: '<unknown (@0x4eea06)>'
+# 39   0x004eeb04: '<unknown (@0x4eeb04)>'
+# 40   0x00a1c8fe: '<unknown (@0xa1c8fe)>'
+# 41   0x00630073: '<unknown (@0x630073)>'
+# 42   0x00631bc9: '<unknown (@0x631bc9)>'
+# 43   0x004e1d82: '<unknown (@0x4e1d82)>'
+# 44   0x00448c1e: '<unknown (@0x448c1e)>'
+# 45   0xfefe115a: 'C:/Users/Dora/Desktop/tenentes/exercise_1/trcut_truthtable_tb.v:67'
+# 46   0x0040105c: '<unknown (@0x40105c)>'
+# 47   0x004335e5: '<unknown (@0x4335e5)>'
+# End of Stack Trace
+
+

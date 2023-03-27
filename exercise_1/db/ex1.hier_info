@@ -1,0 +1,76 @@
+|trcut
+CLK => CLK.IN4
+SE => SE.IN4
+SI => SI.IN1
+SO <= d_cp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|trcut|comb_logic:CLinstance
+a => e.IN0
+a => g.IN0
+b => e.IN1
+b => h.IN0
+c => f.IN0
+c => g.IN1
+d => f.IN1
+d => h.IN1
+i <= comb.DB_MAX_OUTPUT_PORT_TYPE
+j <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|trcut|SDFF:R_AJ
+CLK => CLK.IN1
+DI => muxoutput.DATAA
+SI => muxoutput.DATAB
+SE => muxoutput.OUTPUTSELECT
+SO <= MyDFF:dffinstance.port2
+
+
+|trcut|SDFF:R_AJ|MyDFF:dffinstance
+CLK => Q~reg0.CLK
+D => Q~reg0.DATAIN
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|trcut|SDFF:R_BI
+CLK => CLK.IN1
+DI => muxoutput.DATAA
+SI => muxoutput.DATAB
+SE => muxoutput.OUTPUTSELECT
+SO <= MyDFF:dffinstance.port2
+
+
+|trcut|SDFF:R_BI|MyDFF:dffinstance
+CLK => Q~reg0.CLK
+D => Q~reg0.DATAIN
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|trcut|SDFF:R_C
+CLK => CLK.IN1
+DI => muxoutput.DATAA
+SI => muxoutput.DATAB
+SE => muxoutput.OUTPUTSELECT
+SO <= MyDFF:dffinstance.port2
+
+
+|trcut|SDFF:R_C|MyDFF:dffinstance
+CLK => Q~reg0.CLK
+D => Q~reg0.DATAIN
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|trcut|SDFF:R_D
+CLK => CLK.IN1
+DI => muxoutput.DATAA
+SI => muxoutput.DATAB
+SE => muxoutput.OUTPUTSELECT
+SO <= MyDFF:dffinstance.port2
+
+
+|trcut|SDFF:R_D|MyDFF:dffinstance
+CLK => Q~reg0.CLK
+D => Q~reg0.DATAIN
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

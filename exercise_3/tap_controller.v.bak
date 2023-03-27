@@ -1,0 +1,188 @@
+#define TAP_TEST_LOGIC_RESET 0
+#define TAP_RUN_TEST_IDLE 8
+#define TAP_SELECT_DR_SCAN 1
+#define TAP_CAPTURE_DR  2
+#define TAP_SHIFT_DR 3
+#define TAP_EXIT1_DR 4
+#define TAP_PAUSE_DR 5
+#define TAP_EXIT2_DR 6
+#define TAP_UPDATE_DR 7
+#define TAP_SELECT_IR_SCAN 9
+#define TAP_CAPTURE_IR 10
+#define TAP_SHIFT_IR 11
+#define TAP_EXIT1_IR 12
+#define TAP_PAUSE_IR 13
+#define TAP_EXIT2_IR 14
+#define TAP_UPDATE_IR 15
+
+int jtag_tap_controller_state_machine( int tms )
+{
+  static int state = TAP_TEST_LOGIC_RESET;
+  int nextstate;
+  switch ( state )
+  {
+    case ( TAP_TEST_LOGIC_RESET ):
+      if ( !tms )
+      {
+        nextstate = TAP_RUN_TEST_IDLE;
+      }
+      else
+      {
+      }
+      break;
+    case ( TAP_RUN_TEST_IDLE ):
+      if ( !tms )
+      {
+      }
+      else
+      {
+        nextstate = TAP_SELECT_DR_SCAN;
+      }
+      break;
+    case ( TAP_SELECT_DR_SCAN ):
+      if ( !tms )
+      {
+        nextstate = TAP_CAPTURE_DR;
+      }
+      else
+      {
+        nextstate = TAP_SELECT_IR_SCAN;
+      }
+      break;
+    case ( TAP_CAPTURE_DR ):
+      if ( !tms )
+      {
+        nextstate = TAP_SHIFT_DR;
+      }
+      else
+      {
+        nextstate = TAP_EXIT1_DR;
+      }
+      break;
+    case ( TAP_SHIFT_DR ):
+      if ( !tms )
+      {
+        ;
+      }
+      else
+      {
+        nextstate = TAP_EXIT1_DR;
+      }
+      break;
+    case ( TAP_EXIT1_DR ):
+      if ( !tms )
+      {
+        nextstate = TAP_PAUSE_DR;
+      }
+      else
+      {
+        nextstate = TAP_UPDATE_DR;
+      }
+      break;
+    case ( TAP_PAUSE_DR ):
+      if ( !tms )
+      {
+        ;
+      }
+      else
+      {
+        nextstate = TAP_EXIT2_DR;
+      }
+      break;
+    case ( TAP_EXIT2_DR ):
+      if ( !tms )
+      {
+        nextstate = TAP_SHIFT_DR;
+      }
+      else
+      {
+        nextstate = TAP_UPDATE_DR;
+      }
+      break;
+    case ( TAP_UPDATE_DR ):
+      if ( !tms )
+      {
+        nextstate = TAP_RUN_TEST_IDLE;
+      }
+      else
+      {
+        nextstate = TAP_SELECT_DR_SCAN;
+      }
+      ;
+      break;
+    case ( TAP_SELECT_IR_SCAN ):
+      if ( !tms )
+      {
+        nextstate = TAP_CAPTURE_IR;
+      }
+      else
+      {
+        nextstate = TAP_TEST_LOGIC_RESET;
+      }
+      break;
+    case ( TAP_CAPTURE_IR ):
+      if ( !tms )
+      {
+        nextstate = TAP_SHIFT_IR;
+      }
+      else
+      {
+        nextstate = TAP_EXIT1_IR;
+      }
+      break;
+    case ( TAP_SHIFT_IR ):
+      if ( !tms )
+      {
+        ;
+      }
+      else
+      {
+        nextstate = TAP_EXIT1_IR;
+      }
+      break;
+    case ( TAP_EXIT1_IR ):
+      if ( !tms )
+      {
+        nextstate = TAP_PAUSE_IR;
+      }
+      else
+      {
+        nextstate = TAP_UPDATE_IR;
+      }
+      break;
+    case ( TAP_PAUSE_IR ):
+      if ( !tms )
+      {
+        ;
+      }
+      else
+      {
+        nextstate = TAP_EXIT2_IR;
+      }
+      break;
+    case ( TAP_EXIT2_IR ):
+      if ( !tms )
+      {
+        nextstate = TAP_SHIFT_IR;
+      }
+      else
+      {
+        nextstate = TAP_UPDATE_IR;
+      }
+      break;
+    case ( TAP_UPDATE_IR ):
+      if ( !tms )
+      {
+        nextstate = TAP_RUN_TEST_IDLE;
+      }
+      else
+      {
+        nextstate = TAP_SELECT_DR_SCAN;
+      }
+      break;
+    default:
+      nextstate = TAP_TEST_LOGIC_RESET;
+  }
+  state = nextstate;
+  return ( state );
+}

@@ -1,0 +1,9 @@
+`timescale 1ns/1ps
+
+module tap_controller_tb();
+	reg TCK,TMS,TRST;
+	wire state;
+	
+	tap_controller tap_controller_instance(TCK,TMS,TRST,state);
+	
+	

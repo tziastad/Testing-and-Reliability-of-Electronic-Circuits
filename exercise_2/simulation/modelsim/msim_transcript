@@ -1,0 +1,93 @@
+# Reading C:/altera/13.0sp1/modelsim_ase/tcl/vsim/pref.tcl 
+# do LFSR_8_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/Dora/Desktop/tenentes/exercise_2 {C:/Users/Dora/Desktop/tenentes/exercise_2/trcut.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module trcut
+# 
+# Top level modules:
+# 	trcut
+# vlog -vlog01compat -work work +incdir+C:/Users/Dora/Desktop/tenentes/exercise_2 {C:/Users/Dora/Desktop/tenentes/exercise_2/SDFF.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module SDFF
+# 
+# Top level modules:
+# 	SDFF
+# vlog -vlog01compat -work work +incdir+C:/Users/Dora/Desktop/tenentes/exercise_2 {C:/Users/Dora/Desktop/tenentes/exercise_2/MyDFF.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module MyDFF
+# 
+# Top level modules:
+# 	MyDFF
+# vlog -vlog01compat -work work +incdir+C:/Users/Dora/Desktop/tenentes/exercise_2 {C:/Users/Dora/Desktop/tenentes/exercise_2/comb_logic.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module comb_logic
+# 
+# Top level modules:
+# 	comb_logic
+# vlog -vlog01compat -work work +incdir+C:/Users/Dora/Desktop/tenentes/exercise_2 {C:/Users/Dora/Desktop/tenentes/exercise_2/LFSR_8.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module LFSR_8
+# 
+# Top level modules:
+# 	LFSR_8
+# vlog -vlog01compat -work work +incdir+C:/Users/Dora/Desktop/tenentes/exercise_2 {C:/Users/Dora/Desktop/tenentes/exercise_2/TRCUTwithLFSR.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module TRCUTwithLFSR
+# 
+# Top level modules:
+# 	TRCUTwithLFSR
+# vlog -vlog01compat -work work +incdir+C:/Users/Dora/Desktop/tenentes/exercise_2 {C:/Users/Dora/Desktop/tenentes/exercise_2/misr_16.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module misr_16
+# 
+# Top level modules:
+# 	misr_16
+# vlog -vlog01compat -work work +incdir+C:/Users/Dora/Desktop/tenentes/exercise_2 {C:/Users/Dora/Desktop/tenentes/exercise_2/TRCUTwithMISR.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module TRCUTwithMISR
+# 
+# Top level modules:
+# 	TRCUTwithMISR
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/Dora/Desktop/tenentes/exercise_2 {C:/Users/Dora/Desktop/tenentes/exercise_2/TRCUTwithMISR_tb.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module TRCUTwithMISR_tb
+# 
+# Top level modules:
+# 	TRCUTwithMISR_tb
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneiv_hssi_ver -L cycloneiv_pcie_hip_ver -L cycloneiv_ver -L rtl_work -L work -voptargs="+acc"  TRCUTwithMISR_tb
+# vsim -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneiv_hssi_ver -L cycloneiv_pcie_hip_ver -L cycloneiv_ver -L rtl_work -L work -voptargs=\"+acc\" -t 1ps TRCUTwithMISR_tb 
+# Loading work.TRCUTwithMISR_tb
+# Loading work.TRCUTwithMISR
+# Loading work.TRCUTwithLFSR
+# Loading work.LFSR_8
+# Loading work.trcut
+# Loading work.comb_logic
+# Loading work.SDFF
+# Loading work.MyDFF
+# Loading work.misr_16
+# ** Warning: (vsim-3015) C:/Users/Dora/Desktop/tenentes/exercise_2/TRCUTwithMISR.v(9): [PCDPC] - Port size (16 or 16) does not match connection size (1) for port 'MISR'. The port definition is at: C:/Users/Dora/Desktop/tenentes/exercise_2/misr_16.v(5).
+# 
+#         Region: /TRCUTwithMISR_tb/myinstance/misrinstance
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# Break key hit 
+# Simulation stop requested.
+# Simulation Breakpoint: Simulation stop requested.
+# MACRO ./LFSR_8_run_msim_rtl_verilog.do PAUSED at line 24

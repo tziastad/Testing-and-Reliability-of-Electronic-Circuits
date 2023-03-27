@@ -1,0 +1,107 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\Dora\Desktop\tenentes\exercise_1\simulation\modelsim
+vcomb_logic
+I<Td>`1Q1<`0WmMS7dW@:O3
+VmQLgVRE?GmT:5VWCG[Wfd1
+Z1 dC:\Users\Dora\Desktop\tenentes\exercise_1\simulation\modelsim
+w1616354042
+8C:/Users/Dora/Desktop/tenentes/exercise_1/comb_logic.v
+FC:/Users/Dora/Desktop/tenentes/exercise_1/comb_logic.v
+L0 1
+Z2 OV;L;10.1d;51
+r1
+31
+Z3 o-vlog01compat -work work -O0
+Z4 !s92 -vlog01compat -work work +incdir+C:/Users/Dora/Desktop/tenentes/exercise_1 -O0
+!i10b 1
+!s100 ]38no35EIVWR==0mWGg150
+!s85 0
+!s108 1625039789.912000
+!s107 C:/Users/Dora/Desktop/tenentes/exercise_1/comb_logic.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Dora/Desktop/tenentes/exercise_1|C:/Users/Dora/Desktop/tenentes/exercise_1/comb_logic.v|
+!s101 -O0
+vMyDFF
+IUHOzdjhE5G?[OJBh8TO=52
+VS9<lSML<K3IJclMK0]3DD2
+R1
+w1616291697
+8C:/Users/Dora/Desktop/tenentes/exercise_1/MyDFF.v
+FC:/Users/Dora/Desktop/tenentes/exercise_1/MyDFF.v
+L0 3
+R2
+r1
+31
+R3
+R4
+n@my@d@f@f
+!i10b 1
+!s100 @2AFNk1;]Lo6`[gN8R:[g2
+!s85 0
+!s108 1625039790.135000
+!s107 C:/Users/Dora/Desktop/tenentes/exercise_1/MyDFF.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Dora/Desktop/tenentes/exercise_1|C:/Users/Dora/Desktop/tenentes/exercise_1/MyDFF.v|
+!s101 -O0
+vSDFF
+IOR<Ld_f9O[[SnnK;H0Lj<2
+VS@WFTTR7e5DeVE?ITlThg2
+R1
+w1616364701
+8C:/Users/Dora/Desktop/tenentes/exercise_1/SDFF.v
+FC:/Users/Dora/Desktop/tenentes/exercise_1/SDFF.v
+L0 2
+R2
+r1
+31
+R3
+R4
+n@s@d@f@f
+!i10b 1
+!s100 z=_KfSXk=DH`XdPo7<h:C2
+!s85 0
+!s108 1625039790.025000
+!s107 C:/Users/Dora/Desktop/tenentes/exercise_1/SDFF.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Dora/Desktop/tenentes/exercise_1|C:/Users/Dora/Desktop/tenentes/exercise_1/SDFF.v|
+!s101 -O0
+vtrcut
+I29=BeYT7SCYRRBkH3AWDG0
+VmOYkBIzODbIOkc:3W8zFz1
+R1
+w1620381047
+8C:/Users/Dora/Desktop/tenentes/exercise_1/trcut.v
+FC:/Users/Dora/Desktop/tenentes/exercise_1/trcut.v
+L0 1
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 mglIkh3EzM7gBGiNjR3mn2
+!s85 0
+!s108 1625039789.750000
+!s107 C:/Users/Dora/Desktop/tenentes/exercise_1/trcut.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Dora/Desktop/tenentes/exercise_1|C:/Users/Dora/Desktop/tenentes/exercise_1/trcut.v|
+!s101 -O0
+vtrcut_tb
+!i10b 1
+!s100 PPi=zdEF1Nl3ZNbi=GzBc1
+I@In26lMdi96?U1;BRBmi`0
+VIjaSFf=XBl5`[Eg`^jdQ71
+R1
+w1617185248
+8C:/Users/Dora/Desktop/tenentes/exercise_1/trcut_tb.v
+FC:/Users/Dora/Desktop/tenentes/exercise_1/trcut_tb.v
+L0 2
+R2
+r1
+!s85 0
+31
+!s108 1625039790.242000
+!s107 C:/Users/Dora/Desktop/tenentes/exercise_1/trcut_tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Dora/Desktop/tenentes/exercise_1|C:/Users/Dora/Desktop/tenentes/exercise_1/trcut_tb.v|
+!s101 -O0
+R3
+R4

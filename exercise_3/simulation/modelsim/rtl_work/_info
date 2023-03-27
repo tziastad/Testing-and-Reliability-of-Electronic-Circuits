@@ -1,0 +1,45 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\Dora\Desktop\tenentes\exercise_3\simulation\modelsim
+vtap_controller
+IL2Hg@OaM[B`mGKOhg82L<3
+VB4ROPS]M]i216X@8;8@Kb2
+Z1 dC:\Users\Dora\Desktop\tenentes\exercise_3\simulation\modelsim
+w1622882160
+8C:/Users/Dora/Desktop/tenentes/exercise_3/tap_controller.v
+FC:/Users/Dora/Desktop/tenentes/exercise_3/tap_controller.v
+L0 3
+Z2 OV;L;10.1d;51
+r1
+31
+Z3 o-vlog01compat -work work -O0
+!i10b 1
+!s100 z4:JLdka_k2f;nMoF_J8h2
+!s85 0
+!s108 1625040274.602000
+!s107 C:/Users/Dora/Desktop/tenentes/exercise_3/tap_controller.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Dora/Desktop/tenentes/exercise_3|C:/Users/Dora/Desktop/tenentes/exercise_3/tap_controller.v|
+!s101 -O0
+Z4 !s92 -vlog01compat -work work +incdir+C:/Users/Dora/Desktop/tenentes/exercise_3 -O0
+vtap_controller_tb
+!i10b 1
+!s100 IklZ]C=hzTU0=7X5bPfFh1
+ICzGdegX7fXPORHZNA]`DB2
+VF5OF4X9aGnJ=P8iBkf>c]2
+R1
+w1622550343
+8C:/Users/Dora/Desktop/tenentes/exercise_3/tap_controller_tb.v
+FC:/Users/Dora/Desktop/tenentes/exercise_3/tap_controller_tb.v
+L0 3
+R2
+r1
+!s85 0
+31
+!s108 1625040274.718000
+!s107 C:/Users/Dora/Desktop/tenentes/exercise_3/tap_controller_tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Dora/Desktop/tenentes/exercise_3|C:/Users/Dora/Desktop/tenentes/exercise_3/tap_controller_tb.v|
+!s101 -O0
+R3
+R4

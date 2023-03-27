@@ -1,0 +1,8 @@
+`timescale 1ns/1ps
+module TRCUTwithLFSR_tb();
+	reg CLKtb, SEtb,SI;
+	wire LFSR_out3;
+	wire LFSR_out;
+	wire SO;
+	LFSR_8 LFSRinstance(CLKtb,LFSR_out3,LFSR_out);
+	trcut trcutinstance(CLK,SE,LFSR_out3,SO);

@@ -1,0 +1,11 @@
+`timescale 1ns/1ps
+
+module BSR(DataIn,ShiftIn,ShiftDR,ClockDR,UpdateDR,Mode,ShiftOut,DataOut)
+
+	input DataIn,ShiftIn,ShiftDR,ClockDR,UpdateDR,Mode;
+	output ShiftOut,DataOut;
+	wire DataIn,ShiftIn,ShiftDR,ClockDR,UpdateDR,Mode,DfromMux;
+	reg SRFFQ, LFFQ;
+	
+	assign DfromMux=(ShiftDR)?ShiftIn:DataIn;
+	assign DataOut=(Mode)?LFFQ:DataIn;

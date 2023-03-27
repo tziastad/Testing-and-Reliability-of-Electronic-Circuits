@@ -1,0 +1,88 @@
+# Reading C:/altera/13.0sp1/modelsim_ase/tcl/vsim/pref.tcl 
+# do ex1_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/Dora/Desktop/tenentes/exercise_1 {C:/Users/Dora/Desktop/tenentes/exercise_1/trcut.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module trcut
+# 
+# Top level modules:
+# 	trcut
+# vlog -vlog01compat -work work +incdir+C:/Users/Dora/Desktop/tenentes/exercise_1 {C:/Users/Dora/Desktop/tenentes/exercise_1/comb_logic.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module comb_logic
+# 
+# Top level modules:
+# 	comb_logic
+# vlog -vlog01compat -work work +incdir+C:/Users/Dora/Desktop/tenentes/exercise_1 {C:/Users/Dora/Desktop/tenentes/exercise_1/SDFF.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module SDFF
+# 
+# Top level modules:
+# 	SDFF
+# vlog -vlog01compat -work work +incdir+C:/Users/Dora/Desktop/tenentes/exercise_1 {C:/Users/Dora/Desktop/tenentes/exercise_1/MyDFF.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module MyDFF
+# 
+# Top level modules:
+# 	MyDFF
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/Dora/Desktop/tenentes/exercise_1 {C:/Users/Dora/Desktop/tenentes/exercise_1/trcut_tb.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module trcut_tb
+# 
+# Top level modules:
+# 	trcut_tb
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneiv_hssi_ver -L cycloneiv_pcie_hip_ver -L cycloneiv_ver -L rtl_work -L work -voptargs="+acc"  trcut_tb
+# vsim -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneiv_hssi_ver -L cycloneiv_pcie_hip_ver -L cycloneiv_ver -L rtl_work -L work -voptargs=\"+acc\" -t 1ps trcut_tb 
+# Loading work.trcut_tb
+# Loading work.trcut
+# Loading work.comb_logic
+# Loading work.SDFF
+# Loading work.MyDFF
+# 
+# add wave *
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+# 
+#           File in use by: Dora  Hostname: DESKTOP-679M74P  ProcessID: 7052
+# 
+#           Attempting to use alternate WLF file "./wlft7ji562".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+# 
+#           Using alternate file: ./wlft7ji562
+# 
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# Break key hit 
+# Simulation stop requested.
+# Simulation Breakpoint: Simulation stop requested.
+# MACRO ./ex1_run_msim_rtl_verilog.do PAUSED at line 20
+add wave -position end  sim:/trcut_tb/trcut_instance/R_AJ/CLK
+add wave -position end  sim:/trcut_tb/trcut_instance/R_AJ/DI
+add wave -position end  sim:/trcut_tb/trcut_instance/R_AJ/SI
+add wave -position end  sim:/trcut_tb/trcut_instance/R_AJ/SE
+add wave -position end  sim:/trcut_tb/trcut_instance/R_AJ/SO
+add wave -position end  sim:/trcut_tb/trcut_instance/R_AJ/muxoutput
+add wave -position 8  sim:/trcut_tb/trcut_instance/R_AJ/SO
+add wave -position end  sim:/trcut_tb/trcut_instance/R_AJ/SO
+add wave -position end  sim:/trcut_tb/trcut_instance/R_BI/SO
+add wave -position end  sim:/trcut_tb/trcut_instance/R_C/SO
+add wave -position end  sim:/trcut_tb/trcut_instance/R_D/SO
+restart
+run
+run -continue
+run -all
+# Break key hit 
+# Break in Module MyDFF at C:/Users/Dora/Desktop/tenentes/exercise_1/MyDFF.v line 12

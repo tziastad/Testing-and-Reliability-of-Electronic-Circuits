@@ -1,0 +1,8 @@
+`timescale 1ns/1ps
+
+module BSC_tb();
+
+	reg DataIn,ShiftIn,ShiftDR,ClockDR,UpdateDR,Mode;
+	wire ShiftOut,DataOut;
+	
+	BSC BSCinstance(DataIn,ShiftIn,ShiftDR,ClockDR,UpdateDR,Mode,ShiftOut,DataOut);

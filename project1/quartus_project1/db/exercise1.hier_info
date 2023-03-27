@@ -1,0 +1,13 @@
+|comb_logic
+a => e.IN0
+a => g.IN0
+b => e.IN1
+b => h.IN0
+c => f.IN0
+c => g.IN1
+d => f.IN1
+d => h.IN1
+i <= comb.DB_MAX_OUTPUT_PORT_TYPE
+j <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+

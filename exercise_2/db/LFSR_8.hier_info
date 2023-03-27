@@ -1,0 +1,141 @@
+|TRCUTwithMISR
+CLK => CLK.IN2
+SE => SE.IN1
+sign <= misr_16:misrinstance.port2
+
+
+|TRCUTwithMISR|TRCUTwithLFSR:myinstance
+CLK => CLK.IN2
+SE => SE.IN1
+SO <= trcut:trcutinstance.port3
+
+
+|TRCUTwithMISR|TRCUTwithLFSR:myinstance|LFSR_8:LFSRinstance
+clk => LFSR[0]~reg0.CLK
+clk => LFSR[1]~reg0.CLK
+clk => LFSR[2]~reg0.CLK
+clk => LFSR[3]~reg0.CLK
+clk => LFSR[4]~reg0.CLK
+clk => LFSR[5]~reg0.CLK
+clk => LFSR[6]~reg0.CLK
+clk => LFSR[7]~reg0.CLK
+outLFSR <= LFSR[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+LFSR[0] <= LFSR[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+LFSR[1] <= LFSR[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+LFSR[2] <= LFSR[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+LFSR[3] <= LFSR[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+LFSR[4] <= LFSR[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+LFSR[5] <= LFSR[5]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+LFSR[6] <= LFSR[6]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+LFSR[7] <= LFSR[7]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|TRCUTwithMISR|TRCUTwithLFSR:myinstance|trcut:trcutinstance
+CLK => CLK.IN4
+SE => SE.IN4
+SI => SI.IN1
+SO <= d_cp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|TRCUTwithMISR|TRCUTwithLFSR:myinstance|trcut:trcutinstance|comb_logic:CLinstance
+a => e.IN0
+b => e.IN1
+c => f.IN0
+d => f.IN1
+i <= comb.DB_MAX_OUTPUT_PORT_TYPE
+j <= <VCC>
+
+
+|TRCUTwithMISR|TRCUTwithLFSR:myinstance|trcut:trcutinstance|SDFF:R_AJ
+CLK => CLK.IN1
+DI => muxoutput.DATAA
+SI => muxoutput.DATAB
+SE => muxoutput.OUTPUTSELECT
+SO <= MyDFF:dffinstance.port2
+
+
+|TRCUTwithMISR|TRCUTwithLFSR:myinstance|trcut:trcutinstance|SDFF:R_AJ|MyDFF:dffinstance
+CLK => Q~reg0.CLK
+D => Q~reg0.DATAIN
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|TRCUTwithMISR|TRCUTwithLFSR:myinstance|trcut:trcutinstance|SDFF:R_BI
+CLK => CLK.IN1
+DI => muxoutput.DATAA
+SI => muxoutput.DATAB
+SE => muxoutput.OUTPUTSELECT
+SO <= MyDFF:dffinstance.port2
+
+
+|TRCUTwithMISR|TRCUTwithLFSR:myinstance|trcut:trcutinstance|SDFF:R_BI|MyDFF:dffinstance
+CLK => Q~reg0.CLK
+D => Q~reg0.DATAIN
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|TRCUTwithMISR|TRCUTwithLFSR:myinstance|trcut:trcutinstance|SDFF:R_C
+CLK => CLK.IN1
+DI => muxoutput.DATAA
+SI => muxoutput.DATAB
+SE => muxoutput.OUTPUTSELECT
+SO <= MyDFF:dffinstance.port2
+
+
+|TRCUTwithMISR|TRCUTwithLFSR:myinstance|trcut:trcutinstance|SDFF:R_C|MyDFF:dffinstance
+CLK => Q~reg0.CLK
+D => Q~reg0.DATAIN
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|TRCUTwithMISR|TRCUTwithLFSR:myinstance|trcut:trcutinstance|SDFF:R_D
+CLK => CLK.IN1
+DI => muxoutput.DATAA
+SI => muxoutput.DATAB
+SE => muxoutput.OUTPUTSELECT
+SO <= MyDFF:dffinstance.port2
+
+
+|TRCUTwithMISR|TRCUTwithLFSR:myinstance|trcut:trcutinstance|SDFF:R_D|MyDFF:dffinstance
+CLK => Q~reg0.CLK
+D => Q~reg0.DATAIN
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|TRCUTwithMISR|misr_16:misrinstance
+clk => MISR[0]~reg0.CLK
+clk => MISR[1]~reg0.CLK
+clk => MISR[2]~reg0.CLK
+clk => MISR[3]~reg0.CLK
+clk => MISR[4]~reg0.CLK
+clk => MISR[5]~reg0.CLK
+clk => MISR[6]~reg0.CLK
+clk => MISR[7]~reg0.CLK
+clk => MISR[8]~reg0.CLK
+clk => MISR[9]~reg0.CLK
+clk => MISR[10]~reg0.CLK
+clk => MISR[11]~reg0.CLK
+clk => MISR[12]~reg0.CLK
+clk => MISR[13]~reg0.CLK
+clk => MISR[14]~reg0.CLK
+clk => MISR[15]~reg0.CLK
+SI => MISR.IN1
+sign <= MISR[15]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+MISR[0] <= MISR[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+MISR[1] <= MISR[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+MISR[2] <= MISR[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+MISR[3] <= MISR[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+MISR[4] <= MISR[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+MISR[5] <= MISR[5]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+MISR[6] <= MISR[6]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+MISR[7] <= MISR[7]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+MISR[8] <= MISR[8]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+MISR[9] <= MISR[9]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+MISR[10] <= MISR[10]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+MISR[11] <= MISR[11]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+MISR[12] <= MISR[12]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+MISR[13] <= MISR[13]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+MISR[14] <= MISR[14]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+MISR[15] <= MISR[15]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,0 +1,19 @@
+
+State Machine - |tap_controller|current_state
+Name current_state.Update_IR current_state.Exit2_IR current_state.Pause1_IR current_state.Exit1_IR current_state.Shift_IR current_state.Capture_IR current_state.Select_IR_Scan current_state.Run_Test_Idle current_state.Update_DR current_state.Exit2_DR current_state.Pause_DR current_state.Exit1_DR current_state.Shift_DR current_state.Capture_DR current_state.Select_DR_Scan current_state.Test_Logic_Reset 
+current_state.Test_Logic_Reset 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+current_state.Select_DR_Scan 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 
+current_state.Capture_DR 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 
+current_state.Shift_DR 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 
+current_state.Exit1_DR 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 
+current_state.Pause_DR 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 
+current_state.Exit2_DR 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 
+current_state.Update_DR 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 
+current_state.Run_Test_Idle 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 
+current_state.Select_IR_Scan 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 
+current_state.Capture_IR 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 
+current_state.Shift_IR 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 
+current_state.Exit1_IR 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 
+current_state.Pause1_IR 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 
+current_state.Exit2_IR 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+current_state.Update_IR 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
